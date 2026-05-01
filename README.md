@@ -6,7 +6,7 @@ The project starts in Google Colab and should also run locally when the required
 
 ## Open in Colab
 
-<!-- TODO: Add an "Open in Colab" badge once this repository is published on GitHub. -->
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raimund-buehler/visualizing-the-brain/blob/main/notebooks/01_hello_brain.ipynb)
 
 ## Learning Goals
 
@@ -67,7 +67,7 @@ Local setup is optional. It is useful for teachers, helpers, or students who alr
 
 - Review: images, slices, and voxels.
 - Explore x, y, and z coordinates.
-- Use sliders to move through the brain.
+- Use a clickable viewer to move through the brain.
 - Student challenge: find symmetrical slices and describe changes.
 
 ### Day 3: From Pictures to Questions
