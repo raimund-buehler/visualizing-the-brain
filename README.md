@@ -6,7 +6,7 @@ The project starts in Google Colab and should also run locally when the required
 
 ## Open in Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raimund-buehler/visualizing-the-brain/blob/main/notebooks/01_hello_brain.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raimund-buehler/visualizing-the-brain/blob/main/notebooks/day_one.ipynb)
 
 ## Learning Goals
 
@@ -22,7 +22,7 @@ By the end of this first notebook, students should be able to:
 ## Setup: Google Colab
 
 1. Open Google Colab: <https://colab.research.google.com/>
-2. Upload or open `notebooks/01_hello_brain.ipynb`.
+2. Upload or open `notebooks/day_one.ipynb`.
 3. Run the first code cell to install the required packages.
 4. Run each notebook cell from top to bottom.
 
@@ -51,7 +51,7 @@ Local setup is optional. It is useful for teachers, helpers, or students who alr
    jupyter notebook
    ```
 
-4. Open `notebooks/01_hello_brain.ipynb` and run it from top to bottom.
+4. Open `notebooks/day_one.ipynb` and run it from top to bottom.
 
 ## Workshop Outline: 3 Days / 12 Hours
 
