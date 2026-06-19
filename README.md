@@ -31,9 +31,9 @@ The current workshop has two notebooks, each designed for about two hours. Engli
 | Notebook | Language | Purpose |
 | --- | --- | --- |
 | `notebooks/day_one.ipynb` | English | Introduction to Jupyter, voxels, MRI/fMRI data shapes, slices, time series, plotting, and one guided first-level contrast. |
-| `notebooks/day_one_de.ipynb` | German | German version of day one. The code tasks are runnable examples rather than fill-in-the-blank exercises. |
-| `notebooks/day_two.ipynb` | English | Guided template where students choose a contrast, make a prediction, run a first-level analysis, plot the result, and interpret it carefully. |
-| `notebooks/day_two_de.ipynb` | German | German version of day two. |
+| `notebooks/day_one_de.ipynb` | German | German version of day one with the same structure and runnable code examples. |
+| `notebooks/day_two.ipynb` | English | Guided notebook where students choose a contrast, make a prediction, run a first-level analysis, plot the result, and interpret it carefully. |
+| `notebooks/day_two_de.ipynb` | German | German version of day two with the same structure and guided discussion prompts. |
 
 ## Learning Goals
 
@@ -48,6 +48,8 @@ By the end of the two notebooks, students should be able to:
 - interpret warm and cool colors in a contrast map,
 - describe approximate brain locations using side, height, front/back position, and lobes,
 - explain why some fMRI contrasts are easier to interpret than others.
+
+The English and German notebooks are intended to match each other in structure. Code cells are runnable examples, and student work is guided through discussion prompts.
 
 ## Setup: Google Colab
 
