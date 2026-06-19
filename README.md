@@ -1,8 +1,8 @@
 # Visualizing the Brain
 
-A beginner-friendly neuroscience outreach project for a small group of motivated students aged 13-14. The first milestone is an accessible introduction to MRI, fMRI, voxels, and basic brain visualization using Python.
+A beginner-friendly neuroscience outreach project for motivated students aged 13-14. The workshop introduces MRI and fMRI visualization with Python, using short guided notebooks that run in Google Colab.
 
-The project starts in Google Colab and should also run locally when the required Python packages are installed.
+The current workshop has two notebooks, each designed for about two hours. English and German versions are available.
 
 ## Open in Colab
 
@@ -26,21 +26,33 @@ The project starts in Google Colab and should also run locally when the required
 
 [![Tag Zwei in Colab öffnen](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/raimund-buehler/visualizing-the-brain/blob/main/notebooks/day_two_de.ipynb)
 
+## Notebook Overview
+
+| Notebook | Language | Purpose |
+| --- | --- | --- |
+| `notebooks/day_one.ipynb` | English | Introduction to Jupyter, voxels, MRI/fMRI data shapes, slices, time series, plotting, and one guided first-level contrast. |
+| `notebooks/day_one_de.ipynb` | German | German version of day one. The code tasks are runnable examples rather than fill-in-the-blank exercises. |
+| `notebooks/day_two.ipynb` | English | Guided template where students choose a contrast, make a prediction, run a first-level analysis, plot the result, and interpret it carefully. |
+| `notebooks/day_two_de.ipynb` | German | German version of day two. |
+
 ## Learning Goals
 
-By the end of this first notebook, students should be able to:
+By the end of the two notebooks, students should be able to:
 
-- Explain the basic idea of MRI as a way to make pictures of the inside of the body.
-- Explain that fMRI measures changes related to blood oxygen, not thoughts directly.
-- Recognize that a brain image is made of many tiny 3D blocks called voxels.
-- Load a standard brain template with Python.
-- Visualize brain slices from different directions.
-- Explore how brain slices change when moving through x, y, and z coordinates.
+- explain that brain images are arrays of numbers made from voxels,
+- describe slices, 3D volumes, 4D fMRI data, and voxel time series,
+- navigate anatomical and functional brain images with Nilearn plots,
+- explain that fMRI reflects blood-oxygen-related signal changes, not thoughts directly,
+- understand why task conditions need to be compared with contrasts,
+- run a simple first-level fMRI contrast for one participant,
+- interpret warm and cool colors in a contrast map,
+- describe approximate brain locations using side, height, front/back position, and lobes,
+- explain why some fMRI contrasts are easier to interpret than others.
 
 ## Setup: Google Colab
 
 1. Open Google Colab: <https://colab.research.google.com/>
-2. Upload or open one of the notebooks in `notebooks/`.
+2. Open one of the Colab links above, or upload one of the notebooks in `notebooks/`.
 3. Run the first code cell to install the required packages.
 4. Run each notebook cell from top to bottom.
 
@@ -71,30 +83,31 @@ Local setup is optional. It is useful for teachers, helpers, or students who alr
 
 4. Open one of the notebooks in `notebooks/` and run it from top to bottom.
 
-## Workshop Outline: 3 Days / 12 Hours
+## Workshop Outline: 2 Days / 4 Hours
 
-### Day 1: What Is Brain Imaging?
+### Day 1: From Brain Images to a First fMRI Comparison
 
-- Welcome and project overview.
-- What is MRI?
-- What is fMRI?
-- First look at a standard brain template.
-- Hands-on activity: viewing brain slices.
+- Learn how to run a Jupyter notebook.
+- Load an anatomical brain template.
+- Inspect a brain image as a 3D array of numbers.
+- Understand voxels, slices, volumes, and 4D fMRI data.
+- Plot anatomical and functional images.
+- Explore a voxel time series.
+- Connect fMRI signal to task timing.
+- Run one guided first-level contrast: right-hand button presses compared with left-hand button presses.
+- Interpret the result using motor cortex, the homunculus, and contralaterality.
 
-### Day 2: Exploring the Brain in 3D
+### Day 2: Ask Your Own Brain Question
 
-- Review: images, slices, and voxels.
-- Explore x, y, and z coordinates.
-- Use a clickable viewer to move through the brain.
-- Student challenge: find symmetrical slices and describe changes.
-
-### Day 3: From Pictures to Questions
-
-- Discuss what brain images can and cannot tell us.
-- Compare anatomy and activity at a simple conceptual level.
-- Reflection: why fMRI is not mind reading.
-- Group discussion: what could we visualize next?
+- Choose a task contrast from the localizer experiment.
+- Make a prediction before looking at the result.
+- Fit a first-level model for one participant.
+- Compute and plot the chosen contrast.
+- Interpret warm and cool colors.
+- Report approximate location, lobe, and possible function for the strongest clusters.
+- Discuss why some contrasts are scientifically cleaner than others.
+- Prepare a short group explanation of the analysis and its limits.
 
 ## Current Scope
 
-This project does not include decoding, machine learning, or advanced fMRI preprocessing yet. The first goal is to make brain visualization understandable, interesting, and safe for beginners.
+This project does not include decoding, machine learning, advanced preprocessing, or full group-level fMRI analysis. The goal is to make basic MRI/fMRI visualization and first-level contrast analysis understandable, interactive, and safe for beginners.
